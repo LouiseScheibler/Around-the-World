@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PiceseScript : MonoBehaviour
@@ -8,6 +9,8 @@ public class PiceseScript : MonoBehaviour
     private Vector3 RightPosition;
     public bool InRightPosition;
     public bool Selected;
+    public GameObject panel;
+    public static int pieces;
     void Start()
     {
         RightPosition = transform.position;
@@ -21,12 +24,19 @@ public class PiceseScript : MonoBehaviour
         {
             if (!Selected)
             {
-
-            transform.position = RightPosition;
-            InRightPosition = true; 
-
+                transform.position = RightPosition;
+                InRightPosition = true;
             }
-
+            if (InRightPosition)
+            {
+                pieces++;
+                InRightPosition = false;
+            }
+        }
+        if(pieces >= 24)
+        {
+            panel.SetActive(true);
         }
     }
+       
 }
