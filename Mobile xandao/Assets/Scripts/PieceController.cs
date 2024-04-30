@@ -5,21 +5,22 @@ using UnityEngine;
 
 public class PieceController : MonoBehaviour
 {
-    public GameObject[] pieces = new GameObject[24];
+    public static PieceController instance;
+    public List<GameObject> pieces = new List<GameObject>();
     public GameObject painelQuest;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        if (pieces.Length -1 == 23 && PiceseScript.instance.InRightPosition) ;
-        {
-            painelQuest.SetActive(true);
-        }
+        instance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(pieces.Count == 24)
+        {
+            painelQuest.SetActive(true);
+        }
     }
 }

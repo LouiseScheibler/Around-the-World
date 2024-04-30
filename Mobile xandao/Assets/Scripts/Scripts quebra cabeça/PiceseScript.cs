@@ -28,6 +28,8 @@ public class PiceseScript : MonoBehaviour
             {
                 transform.position = RightPosition;
                 InRightPosition = true;
+                PieceController.instance.pieces.Add(DragAndDrop.instance.SelectedPiece);
+                Destroy(this);
             }
             /*if (InRightPosition)
             {
