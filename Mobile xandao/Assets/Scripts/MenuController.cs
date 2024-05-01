@@ -1,15 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public GameObject creditsPainel, controlsPainel;
+    public GameObject creditsPainel, controlsPainel, levelsPainel;
 
     public void PlayBTN()
     {
-        SceneManager.LoadScene("scene");
+        levelsPainel.SetActive(true);
+        //SceneManager.LoadScene("scene");
+    }
+    public void ReturnMenu()
+    {
+        levelsPainel.SetActive(false);
     }
 
     public void OpenCreditsPainel()
