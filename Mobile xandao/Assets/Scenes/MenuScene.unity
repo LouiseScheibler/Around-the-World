@@ -289,7 +289,6 @@ GameObject:
   - component: {fileID: 374458272}
   - component: {fileID: 374458271}
   - component: {fileID: 374458270}
-  - component: {fileID: 374458273}
   m_Layer: 5
   m_Name: Phase 5
   m_TagString: Untagged
@@ -362,16 +361,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 374458273}
+      - m_Target: {fileID: 1375036903}
         m_TargetAssemblyTypeName: TeleportToPhase, Assembly-CSharp
         m_MethodName: PlayPhase
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Fase 5
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &374458271
@@ -412,19 +411,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374458268}
   m_CullTransparentMesh: 1
---- !u!114 &374458273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374458268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e228936507ec2749b58a57f4f47c1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  phaseName: Fase 5
 --- !u!1 &382256187
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +423,6 @@ GameObject:
   - component: {fileID: 382256191}
   - component: {fileID: 382256190}
   - component: {fileID: 382256189}
-  - component: {fileID: 382256192}
   m_Layer: 5
   m_Name: Phase 2
   m_TagString: Untagged
@@ -510,16 +495,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 382256192}
+      - m_Target: {fileID: 1375036903}
         m_TargetAssemblyTypeName: TeleportToPhase, Assembly-CSharp
         m_MethodName: PlayPhase
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Fase 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &382256190
@@ -560,19 +545,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382256187}
   m_CullTransparentMesh: 1
---- !u!114 &382256192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382256187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e228936507ec2749b58a57f4f47c1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  phaseName: Fase 2
 --- !u!1 &382845594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1046,6 @@ GameObject:
   - component: {fileID: 615186484}
   - component: {fileID: 615186483}
   - component: {fileID: 615186482}
-  - component: {fileID: 615186481}
   m_Layer: 5
   m_Name: Phase 1
   m_TagString: Untagged
@@ -1103,19 +1074,6 @@ RectTransform:
   m_AnchoredPosition: {x: -281.5, y: -7.5}
   m_SizeDelta: {x: 300, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &615186481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615186479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e228936507ec2749b58a57f4f47c1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  phaseName: Fase 1
 --- !u!114 &615186482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,16 +1118,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 615186481}
+      - m_Target: {fileID: 1375036903}
         m_TargetAssemblyTypeName: TeleportToPhase, Assembly-CSharp
         m_MethodName: PlayPhase
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Fase 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &615186483
@@ -1346,7 +1304,6 @@ GameObject:
   - component: {fileID: 999872109}
   - component: {fileID: 999872108}
   - component: {fileID: 999872107}
-  - component: {fileID: 999872110}
   m_Layer: 5
   m_Name: Phase 4
   m_TagString: Untagged
@@ -1419,16 +1376,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 999872110}
+      - m_Target: {fileID: 1375036903}
         m_TargetAssemblyTypeName: TeleportToPhase, Assembly-CSharp
         m_MethodName: PlayPhase
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Fase 4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &999872108
@@ -1469,19 +1426,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999872105}
   m_CullTransparentMesh: 1
---- !u!114 &999872110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999872105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e228936507ec2749b58a57f4f47c1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  phaseName: Fase 4
 --- !u!1 &1011379089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,6 +2399,7 @@ GameObject:
   - component: {fileID: 1375036902}
   - component: {fileID: 1375036901}
   - component: {fileID: 1375036900}
+  - component: {fileID: 1375036903}
   m_Layer: 5
   m_Name: LevelPainel
   m_TagString: Untagged
@@ -2527,6 +2472,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1375036903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375036899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e228936507ec2749b58a57f4f47c1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "bot\xF5es":
+  - {fileID: 382256189}
+  - {fileID: 1777004221}
+  - {fileID: 999872107}
+  - {fileID: 374458270}
 --- !u!1 &1746652454
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,7 +2638,6 @@ GameObject:
   - component: {fileID: 1777004223}
   - component: {fileID: 1777004222}
   - component: {fileID: 1777004221}
-  - component: {fileID: 1777004224}
   m_Layer: 5
   m_Name: Phase 3
   m_TagString: Untagged
@@ -2749,16 +2710,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1777004224}
+      - m_Target: {fileID: 1375036903}
         m_TargetAssemblyTypeName: TeleportToPhase, Assembly-CSharp
         m_MethodName: PlayPhase
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Fase 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1777004222
@@ -2799,19 +2760,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777004219}
   m_CullTransparentMesh: 1
---- !u!114 &1777004224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777004219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e228936507ec2749b58a57f4f47c1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  phaseName: Fase 3
 --- !u!1 &1784332839
 GameObject:
   m_ObjectHideFlags: 0

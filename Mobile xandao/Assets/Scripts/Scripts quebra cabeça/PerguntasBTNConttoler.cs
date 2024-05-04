@@ -11,7 +11,14 @@ public class PerguntasBTNConttoler : MonoBehaviour
 
     public void BTNCerto()
     {
+        if (SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("faseCompleta"))
+        {
+            PlayerPrefs.SetInt("faseCompleta", SceneManager.GetActiveScene().buildIndex);
+            PlayerPrefs.Save();
+            
+        }
         SceneManager.LoadScene(nextLevel);
+
     }
 
     public void BTNErrado()

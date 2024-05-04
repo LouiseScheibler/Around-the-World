@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e6375f58cb287c41a9baee87b5f2d1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: scene 1
+  nextLevel: Fase 2
   congratsPainel: {fileID: 1232923161}
 --- !u!1 &128043171
 GameObject:
