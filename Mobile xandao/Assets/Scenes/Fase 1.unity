@@ -218,6 +218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevel: Fase 2
   congratsPainel: {fileID: 1232923161}
+  wrongBtnList:
+  - {fileID: 0}
+  actualScene: Fase 1
 --- !u!1 &128043171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2068,7 @@ GameObject:
   - component: {fileID: 705382088}
   - component: {fileID: 705382091}
   - component: {fileID: 705382090}
+  - component: {fileID: 705382092}
   - component: {fileID: 705382089}
   m_Layer: 5
   m_Name: Japan
@@ -2137,13 +2141,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 26236208}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 26236212}
+        m_TargetAssemblyTypeName: PerguntasBTNConttoler, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2187,6 +2191,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705382087}
   m_CullTransparentMesh: 1
+--- !u!114 &705382092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705382087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed8815266e9ca242911ecb0a4ac47f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 705382087}
+  isDisable: 0
 --- !u!1 &721049366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,6 +5228,7 @@ GameObject:
   - component: {fileID: 1430500268}
   - component: {fileID: 1430500271}
   - component: {fileID: 1430500270}
+  - component: {fileID: 1430500272}
   - component: {fileID: 1430500269}
   m_Layer: 5
   m_Name: Nederlands
@@ -5282,13 +5301,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 26236208}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 26236212}
+        m_TargetAssemblyTypeName: PerguntasBTNConttoler, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5332,6 +5351,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430500267}
   m_CullTransparentMesh: 1
+--- !u!114 &1430500272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430500267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed8815266e9ca242911ecb0a4ac47f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1430500267}
+  isDisable: 0
 --- !u!1 &1471762307
 GameObject:
   m_ObjectHideFlags: 0

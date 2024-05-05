@@ -218,6 +218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevel: Fase 4
   congratsPainel: {fileID: 1232923161}
+  wrongBtnList:
+  - {fileID: 0}
+  actualScene: Fase 3
 --- !u!1 &128043171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1086,7 @@ GameObject:
   - component: {fileID: 291230949}
   - component: {fileID: 291230948}
   - component: {fileID: 291230947}
+  - component: {fileID: 291230950}
   m_Layer: 5
   m_Name: Nederlands
   m_TagString: Untagged
@@ -1204,6 +1208,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291230945}
   m_CullTransparentMesh: 1
+--- !u!114 &291230950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291230945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed8815266e9ca242911ecb0a4ac47f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 291230945}
+  isDisable: 0
 --- !u!1 &329217149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2084,7 @@ GameObject:
   - component: {fileID: 705382091}
   - component: {fileID: 705382090}
   - component: {fileID: 705382089}
+  - component: {fileID: 705382092}
   m_Layer: 5
   m_Name: France
   m_TagString: Untagged
@@ -2187,6 +2206,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705382087}
   m_CullTransparentMesh: 1
+--- !u!114 &705382092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705382087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed8815266e9ca242911ecb0a4ac47f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 705382087}
+  isDisable: 0
 --- !u!1 &721049366
 GameObject:
   m_ObjectHideFlags: 0
